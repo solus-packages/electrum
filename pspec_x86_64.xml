@@ -1,0 +1,275 @@
+<PISI>
+    <Source>
+        <Name>electrum</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>network.clients</PartOf>
+        <Summary xml:lang="en">Lightweight Bitcoin client</Summary>
+        <Description xml:lang="en">Lightweight Bitcoin client
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>electrum</Name>
+        <Summary xml:lang="en">Lightweight Bitcoin client</Summary>
+        <Description xml:lang="en">Lightweight Bitcoin client
+</Description>
+        <PartOf>network.clients</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.6.4-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.6.4-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.6.4-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.6.4-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.6.4-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/account.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/account.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/bitcoin.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/bitcoin.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/blockchain.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/blockchain.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/coinchooser.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/coinchooser.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/commands.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/commands.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/contacts.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/contacts.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/daemon.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/daemon.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/dnssec.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/dnssec.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/i18n.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/i18n.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/interface.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/interface.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/ar_SA/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/bg_BG/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/cs_CZ/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/da_DK/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/de_DE/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/el_GR/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/eo_UY/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/es_ES/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/fr_FR/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/hu_HU/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/hy_AM/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/id_ID/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/it_IT/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/ja_JP/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/ky_KG/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/lv_LV/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/nb_NO/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/nl_NL/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/no_NO/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/pl_PL/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/pt_BR/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/pt_PT/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/ro_RO/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/ru_RU/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/sk_SK/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/sl_SI/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/ta_IN/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/th_TH/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/vi_VN/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/locale/zh_CN/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/mnemonic.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/mnemonic.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/msqr.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/msqr.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/network.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/network.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/old_mnemonic.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/old_mnemonic.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/paymentrequest.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/paymentrequest.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/paymentrequest_pb2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/paymentrequest_pb2.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/pem.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/pem.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/plugins.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/plugins.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/qrscanner.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/qrscanner.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/rsakey.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/rsakey.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/simple_config.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/simple_config.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/socks.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/socks.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/synchronizer.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/synchronizer.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/transaction.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/transaction.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/verifier.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/verifier.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/version.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wallet.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wallet.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/websockets.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/websockets.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wizard.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wizard.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wl.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wl.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wordlist/chinese_simplified.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wordlist/english.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wordlist/japanese.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wordlist/portuguese.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/wordlist/spanish.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/www/index.html</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/x509.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/x509.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/address_dialog.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/address_dialog.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/amountedit.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/amountedit.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/console.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/console.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/history_widget.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/history_widget.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/icons_rc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/icons_rc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/installwizard.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/installwizard.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/main_window.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/main_window.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/network_dialog.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/network_dialog.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/password_dialog.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/password_dialog.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/paytoedit.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/paytoedit.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/qrcodewidget.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/qrcodewidget.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/qrtextedit.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/qrtextedit.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/qrwindow.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/qrwindow.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/seed_dialog.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/seed_dialog.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/transaction_dialog.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/transaction_dialog.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/qt/util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/stdio.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/stdio.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/text.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_gui/text.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/audio_modem/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/audio_modem/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/audio_modem/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/audio_modem/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/cosigner_pool/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/cosigner_pool/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/cosigner_pool/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/cosigner_pool/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/email_requests/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/email_requests/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/email_requests/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/email_requests/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/exchange_rate/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/exchange_rate/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/exchange_rate/exchange_rate.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/exchange_rate/exchange_rate.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/exchange_rate/kivy.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/exchange_rate/kivy.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/exchange_rate/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/exchange_rate/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/greenaddress_instant/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/greenaddress_instant/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/greenaddress_instant/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/greenaddress_instant/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/hw_wallet/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/hw_wallet/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/hw_wallet/hw_wallet.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/hw_wallet/hw_wallet.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/hw_wallet/plugin.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/hw_wallet/plugin.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/hw_wallet/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/hw_wallet/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/client.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/client.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/cmdline.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/cmdline.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/keepkey.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/keepkey.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/keepkey/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/labels/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/labels/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/labels/kivy.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/labels/kivy.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/labels/labels.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/labels/labels.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/labels/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/labels/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/ledger/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/ledger/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/ledger/cmdline.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/ledger/cmdline.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/ledger/ledger.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/ledger/ledger.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/ledger/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/ledger/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/plot/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/plot/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/plot/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/plot/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/client.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/client.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/clientbase.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/clientbase.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/cmdline.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/cmdline.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/plugin.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/plugin.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/qt_generic.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/qt_generic.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/trezor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trezor/trezor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trustedcoin/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trustedcoin/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trustedcoin/cmdline.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trustedcoin/cmdline.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trustedcoin/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trustedcoin/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trustedcoin/trustedcoin.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/trustedcoin/trustedcoin.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/virtualkeyboard/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/virtualkeyboard/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/virtualkeyboard/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/virtualkeyboard/qt.pyc</Path>
+            <Path fileType="data">/usr/share/applications/electrum.desktop</Path>
+            <Path fileType="data">/usr/share/pixmaps/electrum.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-23</Date>
+            <Version>2.6.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

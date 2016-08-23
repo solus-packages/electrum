@@ -1,0 +1,30 @@
+name       : electrum
+version    : 2.6.4
+release    : 1
+source     :
+    - https://download.electrum.org/2.6.4/Electrum-2.6.4.tar.gz : 2ab53b434206ed8ae72e9cadb22d44ef9ba720a7d052abe102f5d55cafbef866
+license    : MIT
+component  : network.clients
+summary    : Lightweight Bitcoin client
+description: |
+    Lightweight Bitcoin client
+builddeps  :
+    - pkgconfig(python-2.7)
+    - python-setuptools
+rundeps    :
+    - python-ecdsa
+    - python-jsonrpclib
+    - python-pbkdf2
+    - python-protobuf
+    - python-qrcode
+    - python-qt4
+    - python-slowaes
+build      : |
+    %python_setup
+install    : |
+    %python_install
+    install -Dm00644 $installdir/root/.local/share/applications/electrum.desktop \
+        $installdir/usr/share/applications/electrum.desktop
+    install -Dm00644 $installdir/root/.local/share/pixmaps/electrum.png \
+        $installdir/usr/share/pixmaps/electrum.png
+    rm -rf $installdir/root
