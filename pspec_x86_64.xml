@@ -2,8 +2,8 @@
     <Source>
         <Name>electrum</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.clients</PartOf>
@@ -20,11 +20,11 @@
         <PartOf>network.clients</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.11-py2.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.11-py2.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.11-py2.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.11-py2.7.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.11-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.12-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.12-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.12-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.12-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.12-py2.7.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/base_wizard.py</Path>
@@ -273,11 +273,11 @@
     </Package>
     <History>
         <Update release="7">
-            <Date>2016-10-24</Date>
-            <Version>2.7.11</Version>
+            <Date>2016-11-10</Date>
+            <Version>2.7.12</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>

@@ -1,8 +1,8 @@
 name       : electrum
-version    : 2.7.11
+version    : 2.7.12
 release    : 7
 source     :
-    - https://download.electrum.org/2.7.11/Electrum-2.7.11.tar.gz : 4be72acab6117f2324e00e1fd5345c647a048cf7faf7c1dd894f9ec2bdf5c263
+    - https://download.electrum.org/2.7.12/Electrum-2.7.12.tar.gz : 3644274231326cc6b13a25703ebe6ec22bbbce7832a86d75abc745040475ad6f
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
@@ -12,12 +12,14 @@ builddeps  :
     - pkgconfig(python-2.7)
     - python-setuptools
 rundeps    :
+    - dnspython
     - python-ecdsa
     - python-jsonrpclib
     - python-pbkdf2
     - python-protobuf
     - python-qrcode
     - python-qt4
+    - python-six
     - python-slowaes
 build      : |
     %python_setup
