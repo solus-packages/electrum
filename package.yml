@@ -1,6 +1,6 @@
 name       : electrum
 version    : 2.7.12
-release    : 7
+release    : 8
 source     :
     - https://download.electrum.org/2.7.12/Electrum-2.7.12.tar.gz : 3644274231326cc6b13a25703ebe6ec22bbbce7832a86d75abc745040475ad6f
 license    : MIT
