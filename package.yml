@@ -1,8 +1,8 @@
 name       : electrum
-version    : 2.7.12
-release    : 8
+version    : 2.7.14
+release    : 9
 source     :
-    - https://download.electrum.org/2.7.12/Electrum-2.7.12.tar.gz : 3644274231326cc6b13a25703ebe6ec22bbbce7832a86d75abc745040475ad6f
+    - https://download.electrum.org/2.7.14/Electrum-2.7.14.tar.gz : 47441ac4d2a59e6a85b668adb1f1d016054d7a900a00353527f18dcf56c26415
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
@@ -25,8 +25,6 @@ build      : |
     %python_setup
 install    : |
     %python_install
-    install -Dm00644 $installdir/root/.local/share/applications/electrum.desktop \
-        $installdir/usr/share/applications/electrum.desktop
-    install -Dm00644 $installdir/root/.local/share/pixmaps/electrum.png \
-        $installdir/usr/share/pixmaps/electrum.png
-    rm -rf $installdir/root
+    install -Dm00644 $workdir/electrum.desktop $installdir/usr/share/applications/electrum.desktop
+    install -Dm00644 $workdir/icons/electrum.png $installdir/usr/share/pixmaps/electrum.png
+    rm -rf $installdir/{home,root}
