@@ -20,11 +20,11 @@
         <PartOf>network.clients</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.14-py2.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.14-py2.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.14-py2.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.14-py2.7.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.14-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.15-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.15-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.15-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.15-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.15-py2.7.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/base_wizard.py</Path>
@@ -264,9 +264,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="9">
+        <Update release="10">
             <Date>2016-10-15</Date>
-            <Version>2.7.14</Version>
+            <Version>2.7.15</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>

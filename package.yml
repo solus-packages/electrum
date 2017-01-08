@@ -1,8 +1,8 @@
 name       : electrum
-version    : 2.7.14
-release    : 9
+version    : 2.7.15
+release    : 10
 source     :
-    - https://download.electrum.org/2.7.14/Electrum-2.7.14.tar.gz : 47441ac4d2a59e6a85b668adb1f1d016054d7a900a00353527f18dcf56c26415
+    - https://download.electrum.org/2.7.15/Electrum-2.7.15.tar.gz : 1f237b394079ec5ced34ae09dc6b50472e51233dd1dfef580127168e293b9652
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
