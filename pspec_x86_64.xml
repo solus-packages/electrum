@@ -20,11 +20,11 @@
         <PartOf>network.clients</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.18-py2.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.18-py2.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.18-py2.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.18-py2.7.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.7.18-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.8.0-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.8.0-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.8.0-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.8.0-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Electrum-2.8.0-py2.7.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/base_wizard.py</Path>
@@ -108,12 +108,12 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/rsakey.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/simple_config.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/simple_config.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/socks.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/socks.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/storage.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/storage.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/synchronizer.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/synchronizer.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/testnet.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/testnet.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/transaction.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/transaction.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum/util.py</Path>
@@ -196,6 +196,14 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/cosigner_pool/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/cosigner_pool/qt.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/cosigner_pool/qt.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/digitalbitbox/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/digitalbitbox/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/digitalbitbox/cmdline.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/digitalbitbox/cmdline.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/digitalbitbox/digitalbitbox.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/digitalbitbox/digitalbitbox.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/digitalbitbox/qt.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/digitalbitbox/qt.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/email_requests/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/email_requests/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/electrum_plugins/email_requests/qt.py</Path>
@@ -271,9 +279,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="13">
-            <Date>2016-10-15</Date>
-            <Version>2.7.18</Version>
+        <Update release="14">
+            <Date>2017-03-09</Date>
+            <Version>2.8.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
