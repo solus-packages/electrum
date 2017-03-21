@@ -1,8 +1,8 @@
 name       : electrum
-version    : 2.8.1
-release    : 15
+version    : 2.8.2
+release    : 16
 source     :
-    - https://download.electrum.org/2.8.1/Electrum-2.8.1.tar.gz : effca46550aeea4b5f0729eb1584bcc61839bb59b20b1a89d09100895ad2288d
+    - https://download.electrum.org/2.8.2/Electrum-2.8.2.tar.gz : d8152bebc5c6f47b28a5d867707bc5742158fe544e7e8046d2c4747ae282b707
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
