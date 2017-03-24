@@ -280,8 +280,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2017-03-21</Date>
+        <Update release="17">
+            <Date>2017-03-24</Date>
             <Version>2.8.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
