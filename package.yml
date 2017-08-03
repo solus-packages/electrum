@@ -1,8 +1,8 @@
 name       : electrum
-version    : 2.9.0
-release    : 19
+version    : 2.9.2
+release    : 20
 source     :
-    - https://download.electrum.org/2.9.0/Electrum-2.9.0.tar.gz : 1bbab1c4cce6ec4930d8b02ba58fff846fa0af96a995336da781010c6f512dd2
+    - https://download.electrum.org/2.9.2/Electrum-2.9.2.tar.gz : 6a3f9bc8e205e696358d2cc7a98a39bc8f5d8b3d7a73bd178996c8264e7cf4dd
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
