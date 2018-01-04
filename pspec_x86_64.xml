@@ -20,11 +20,11 @@
         <PartOf>network.clients</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.2-py3.5.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.2-py3.5.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.2-py3.5.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.2-py3.5.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.2-py3.5.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.3-py3.5.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.3-py3.5.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.3-py3.5.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.3-py3.5.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/Electrum-3.0.3-py3.5.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__pycache__/__init__.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__pycache__/base_wizard.cpython-35.pyc</Path>
@@ -36,6 +36,7 @@
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__pycache__/daemon.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__pycache__/dnssec.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__pycache__/exchange_rate.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__pycache__/fee_estimator.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__pycache__/i18n.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__pycache__/interface.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/__pycache__/keystore.cpython-35.pyc</Path>
@@ -72,6 +73,7 @@
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/daemon.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/dnssec.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/exchange_rate.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/fee_estimator.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/i18n.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/interface.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/keystore.py</Path>
@@ -83,6 +85,7 @@
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/locale/el_GR/LC_MESSAGES/electrum.mo</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/locale/eo_UY/LC_MESSAGES/electrum.mo</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/locale/es_ES/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/locale/fa_IR/LC_MESSAGES/electrum.mo</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/locale/fr_FR/LC_MESSAGES/electrum.mo</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/locale/hu_HU/LC_MESSAGES/electrum.mo</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum/locale/hy_AM/LC_MESSAGES/electrum.mo</Path>
@@ -228,13 +231,19 @@
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/__pycache__/__init__.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/__pycache__/client.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/__pycache__/clientbase.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/__pycache__/cmdline.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/__pycache__/keepkey.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/__pycache__/plugin.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/__pycache__/qt.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/__pycache__/qt_generic.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/client.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/clientbase.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/cmdline.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/keepkey.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/plugin.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/qt.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/keepkey/qt_generic.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/labels/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/labels/__pycache__/__init__.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/electrum_plugins/labels/__pycache__/kivy.cpython-35.pyc</Path>
@@ -286,9 +295,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="24">
-            <Date>2017-11-14</Date>
-            <Version>3.0.2</Version>
+        <Update release="25">
+            <Date>2018-01-04</Date>
+            <Version>3.0.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>

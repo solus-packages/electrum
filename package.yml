@@ -1,8 +1,8 @@
 name       : electrum
-version    : 3.0.2
-release    : 24
+version    : 3.0.3
+release    : 25
 source     :
-    - https://download.electrum.org/3.0.2/Electrum-3.0.2.tar.gz : 4dff75bc5f496f03ad7acbe33f7cec301955ef592b0276f2c518e94e47284f53
+    - https://download.electrum.org/3.0.3/Electrum-3.0.3.tar.gz : e55cb8b29a2ee1442f0873787e54b52b85aac76c2b5f540e823cd2b96ad00326
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
@@ -12,6 +12,7 @@ builddeps  :
     - pkgconfig(python3)
 rundeps    :
     - dnspython
+    - python3-qt5
     - python-ecdsa
     - python-jsonrpclib
     - python-pbkdf2
@@ -19,7 +20,6 @@ rundeps    :
     - python-pyaes
     - python-pysocks
     - python-qrcode
-    - python3-qt5
     - python-six
     - python-slowaes
     - python-xmlrpclib
@@ -27,6 +27,6 @@ build      : |
     %python3_setup
 install    : |
     %python3_install
-    install -Dm00644 $workdir/electrum.desktop $installdir/usr/share/applications/electrum.desktop
-    install -Dm00644 $workdir/icons/electrum.png $installdir/usr/share/pixmaps/electrum.png
+    install -Dm00644 electrum.desktop $installdir/usr/share/applications/electrum.desktop
+    install -Dm00644 icons/electrum.png $installdir/usr/share/pixmaps/electrum.png
     rm -rf $installdir/{home,root}
