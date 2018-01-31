@@ -1,6 +1,6 @@
 name       : electrum
 version    : 3.0.5
-release    : 27
+release    : 28
 source     :
     - https://download.electrum.org/3.0.5/Electrum-3.0.5.tar.gz : 61ebc06782433f928853188762c6f3098bd3d08d54c34b5594233d196e51e01b
 license    : MIT
