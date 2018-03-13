@@ -1,8 +1,8 @@
 name       : electrum
-version    : 3.1.0
-release    : 30
+version    : 3.1.1
+release    : 31
 source     :
-    - https://download.electrum.org/3.1.0/Electrum-3.1.0.tar.gz : e8f87fc2c36086e550c543e9fc0eac978c3bce85826c353c4f85248427f580c1
+    - https://download.electrum.org/3.1.1/Electrum-3.1.1.tar.gz : 3195679f898bd763c6db32f46bbdf59fa5a211fd3013507f5c7aab25d9b94337
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
@@ -10,6 +10,7 @@ description: |
     Lightweight Bitcoin client
 builddeps  :
     - pkgconfig(python3)
+    - cython
 rundeps    :
     - dnspython
     - python3-qt5
@@ -23,6 +24,9 @@ rundeps    :
     - python-six
     - python-slowaes
     - python-xmlrpclib
+setup      : |
+    # Removes a requirement on an optional module.
+    sed -i '90,93d' setup.py
 build      : |
     %python3_setup
 install    : |
