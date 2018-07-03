@@ -19,14 +19,15 @@
 </Description>
         <PartOf>network.clients</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.1.2-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.1.2-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.1.2-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.1.2-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.1.2-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="executable">/usr/bin/electrum</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.2.2-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.2.2-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.2.2-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.2.2-py3.6.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.2.2-py3.6.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/base_crash_reporter.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/base_wizard.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/bitcoin.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/blockchain.cpython-36.pyc</Path>
@@ -34,10 +35,12 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/commands.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/constants.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/contacts.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/crypto.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/daemon.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/dnssec.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/ecc.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/ecc_fast.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/exchange_rate.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/fee_estimator.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/i18n.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/interface.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/jsonrpc.cpython-36.pyc</Path>
@@ -65,6 +68,7 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/wallet.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/websockets.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/x509.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/base_crash_reporter.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/base_wizard.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/bitcoin.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/blockchain.py</Path>
@@ -74,11 +78,13 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/commands.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/constants.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/contacts.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/crypto.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/currencies.json</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/daemon.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/dnssec.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/ecc.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/ecc_fast.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/exchange_rate.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/fee_estimator.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/i18n.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/interface.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/jsonrpc.py</Path>
@@ -132,6 +138,7 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/rsakey.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/segwit_addr.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/servers.json</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/servers_regtest.json</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/servers_testnet.json</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/simple_config.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/storage.py</Path>
@@ -157,6 +164,7 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/__pycache__/address_dialog.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/__pycache__/address_list.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/__pycache__/amountedit.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/__pycache__/completion_text_edit.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/__pycache__/console.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/__pycache__/contact_list.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/__pycache__/exception_window.cpython-36.pyc</Path>
@@ -180,6 +188,7 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/address_dialog.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/address_list.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/amountedit.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/completion_text_edit.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/console.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/contact_list.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_gui/qt/exception_window.py</Path>
@@ -242,21 +251,19 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/__pycache__/clientbase.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/__pycache__/cmdline.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/__pycache__/keepkey.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/__pycache__/plugin.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/__pycache__/qt.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/__pycache__/qt_generic.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/client.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/clientbase.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/cmdline.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/keepkey.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/plugin.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/qt.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/keepkey/qt_generic.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/__pycache__/cmdline.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/__pycache__/kivy.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/__pycache__/labels.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/__pycache__/qt.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/cmdline.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/kivy.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/labels.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/labels/qt.py</Path>
@@ -270,28 +277,36 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/ledger/cmdline.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/ledger/ledger.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/ledger/qt.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/revealer/DejaVuSansMono-Bold.ttf</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/revealer/LICENSE_DEJAVU.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/revealer/SIL Open Font License.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/revealer/SourceSansPro-Bold.otf</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/revealer/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/revealer/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/revealer/__pycache__/qt.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/revealer/qt.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/__pycache__/__init__.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/__pycache__/client.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/__pycache__/clientbase.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/__pycache__/cmdline.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/__pycache__/qt.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/__pycache__/qt_generic.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/__pycache__/transport.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/__pycache__/trezor.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/client.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/clientbase.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/cmdline.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/qt.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/qt_generic.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/transport.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trezor/trezor.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/__pycache__/__init__.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/__pycache__/cmdline.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/__pycache__/kivy.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/__pycache__/qt.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/__pycache__/trustedcoin.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/cmdline.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/kivy.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/qt.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/trustedcoin/trustedcoin.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum_plugins/virtualkeyboard/__init__.py</Path>
@@ -303,9 +318,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="32">
-            <Date>2018-03-28</Date>
-            <Version>3.1.2</Version>
+        <Update release="33">
+            <Date>2018-07-03</Date>
+            <Version>3.2.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
