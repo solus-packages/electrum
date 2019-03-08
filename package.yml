@@ -1,8 +1,8 @@
 name       : electrum
-version    : 3.3.3
-release    : 37
+version    : 3.3.4
+release    : 38
 source     :
-    - https://download.electrum.org/3.3.3/Electrum-3.3.3.tar.gz : c2692f1e1a21907a2b3e47564f06954a73d20017ca081238d07f65ae3c745f7c
+    - https://download.electrum.org/3.3.4/Electrum-3.3.4.tar.gz : 2f230e85bcc5833315a44959c645d05df6694847a4ad8f7fe91c974f27472240
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
@@ -31,5 +31,5 @@ build      : |
 install    : |
     %python3_install
     install -Dm00644 electrum.desktop $installdir/usr/share/applications/electrum.desktop
-    install -Dm00644 icons/electrum.png $installdir/usr/share/pixmaps/electrum.png
+    install -Dm00644 electrum/gui/icons/electrum.png $installdir/usr/share/pixmaps/electrum.png
     rm -rf $installdir/{home,root}
