@@ -2,15 +2,15 @@
     <Source>
         <Name>electrum</Name>
         <Packager>
-            <Name>Justin Berthault</Name>
-            <Email>justin.berthault@zaclys.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.clients</PartOf>
         <Summary xml:lang="en">Lightweight Bitcoin client</Summary>
         <Description xml:lang="en">Lightweight Bitcoin client
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>electrum</Name>
@@ -20,11 +20,11 @@
         <PartOf>network.clients</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/electrum</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.4-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.4-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.4-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.4-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.4-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.8-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.8-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.8-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.8-py3.6.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/Electrum-3.3.8-py3.6.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/__init__.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/address_synchronizer.cpython-36.pyc</Path>
@@ -45,8 +45,10 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/exchange_rate.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/i18n.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/interface.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/json_db.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/jsonrpc.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/keystore.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/logging.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/mnemonic.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/msqr.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/__pycache__/network.cpython-36.pyc</Path>
@@ -195,6 +197,7 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/__pycache__/qrwindow.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/__pycache__/request_list.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/__pycache__/seed_dialog.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/__pycache__/stylesheet_patcher.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/__pycache__/transaction_dialog.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/__pycache__/update_checker.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/__pycache__/util.cpython-36.pyc</Path>
@@ -219,6 +222,7 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/qrwindow.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/request_list.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/seed_dialog.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/stylesheet_patcher.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/transaction_dialog.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/update_checker.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/qt/util.py</Path>
@@ -227,6 +231,7 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/gui/text.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/i18n.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/interface.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/json_db.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/jsonrpc.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/keystore.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/locale/ar_SA/LC_MESSAGES/electrum.mo</Path>
@@ -265,6 +270,7 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/locale/vi_VN/LC_MESSAGES/electrum.mo</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/locale/zh_CN/LC_MESSAGES/electrum.mo</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/locale/zh_TW/LC_MESSAGES/electrum.mo</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/logging.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/mnemonic.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/msqr.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/electrum/network.py</Path>
@@ -427,12 +433,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="38">
-            <Date>2019-03-07</Date>
-            <Version>3.3.4</Version>
+        <Update release="39">
+            <Date>2019-07-12</Date>
+            <Version>3.3.8</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Berthault</Name>
-            <Email>justin.berthault@zaclys.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
