@@ -1,6 +1,6 @@
 name       : electrum
 version    : 3.3.8
-release    : 40
+release    : 41
 source     :
     - https://download.electrum.org/3.3.8/Electrum-3.3.8.tar.gz : e2adf191847609d5bd850320f647db6347952b170364a463276db27a836400bc
 license    : MIT
