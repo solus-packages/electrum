@@ -1,8 +1,8 @@
 name       : electrum
-version    : 4.0.2
-release    : 42
+version    : 4.0.3
+release    : 43
 source     :
-    - https://download.electrum.org/4.0.2/Electrum-4.0.2.tar.gz : 810bff7b0bb6b2d1da4d4a6421b94cc5b493fdeeb0c61b34b3ce38ed4dce2b16
+    - https://download.electrum.org/4.0.3/Electrum-4.0.3.tar.gz : 8f1a4d9e8623fcbd9e4ed9966c4744da51b6a148ddfacf5c97dfeffe9f0b0961
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
