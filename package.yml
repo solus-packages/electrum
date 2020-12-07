@@ -1,8 +1,8 @@
 name       : electrum
-version    : 4.0.3
-release    : 43
+version    : 4.0.6
+release    : 44
 source     :
-    - https://download.electrum.org/4.0.3/Electrum-4.0.3.tar.gz : 8f1a4d9e8623fcbd9e4ed9966c4744da51b6a148ddfacf5c97dfeffe9f0b0961
+    - https://github.com/spesmilo/electrum/archive/4.0.6.tar.gz : 56ac4300f84ecd494035bae97c82c31f831950e451fa4ebe71fd285eb712063b
 license    : MIT
 component  : network.clients
 summary    : Lightweight Bitcoin client
@@ -22,7 +22,6 @@ rundeps    :
     - python-jsonrpclib
     - python-pbkdf2
     - python-protobuf
-    - python-pyaes
     - python-pysocks
     - python-qrcode
     - python-six
